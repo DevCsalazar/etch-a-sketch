@@ -12,6 +12,7 @@ body{
     align-items: center;
     width: 300px;
     justify-content: space-around;
+    padding: 15px;
 }
 .header h6{
     margin-top: 10px;
@@ -19,8 +20,8 @@ body{
 .board-container{
     height: 500px;
     width: 500px;
-    border: .3rem solid black;
-    margin-top: 25px;
+    border: 5px solid black;
+    display: grid;
 }
 .btns{
     display: flex;
@@ -29,4 +30,11 @@ body{
     width: 500px;
     justify-content: space-around;
     margin-top: 25px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 1.5px 1.5px;
 }

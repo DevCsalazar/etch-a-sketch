@@ -14,13 +14,17 @@
         <h6>Select the size</h6>
         <button class="btn btn-success" id="pop-up">Select</button>
     </header>
+    <p id="message"></p>
+    <p id="draw"></p>
     <section class="board-container"></section>
     <section class="btns">
-        <button class="btn btn-dark">Default</button>
-        <button class="btn btn-secondary">Random</button>
-        <button class="btn btn-primary">Reset</button>
+        <button class="btn btn-dark" onclick="setColor('black')">Default</button>
+        <button class="btn btn-secondary" onclick="setColor('random')">Random</button>
+        <button class="btn btn-primary" onclick="resetBoard()">Reset</button>
     </section>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <h3>Made by DevCsalazar</h3>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>
