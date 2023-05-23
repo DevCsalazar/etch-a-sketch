@@ -38,3 +38,7 @@ body{
     margin-top: 80px;
     padding: 1.5px 1.5px;
 }
+.footer h3{
+    color: black;
+    font-size: 16px;
+}
