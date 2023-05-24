@@ -33,7 +33,7 @@ function createBoard(size){
 
     for(let i = 0; i < numDIvs; i++){
         let div = document.createElement("div");
-        div.style.border = ".5px dotted";
+        div.style.backgroundColor = "white"
         div.addEventListener("mouseover", colorDIv);
         board.insertAdjacentElement("beforeend", div);
     }
